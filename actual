@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto Pedal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .category, .payment, .location {
+            margin: 2rem 0;
+        }
+        .category h2, .payment h2, .location h2 {
+            margin-bottom: 1rem;
+        }
+        .bikes {
+            display: flex;
+            gap: 1rem;
+        }
+        .bike {
+            flex: 1;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+        }
+        .bike img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Punto Pedal - Alquiler de Bicicletas</h1>
+    </header>
+
+    <div class="container">
+        <!-- Categorías de bicicletas -->
+        <section class="category">
+            <h2>Categorías de Bicicletas</h2>
+            <div class="bikes">
+                <div class="bike">
+                    <img src="deportiva.jpg" alt="Bicicleta Deportiva">
+                    <h3>Deportiva</h3>
+                    <p>Perfecta para terrenos difíciles y actividades de alto rendimiento.</p>
+                </div>
+                <div class="bike">
+                    <img src="paseo.jpg" alt="Bicicleta de Paseo">
+                    <h3>Paseo</h3>
+                    <p>Ideal para paseos relajados por la ciudad o el parque.</p>
+                </div>
+                <div class="bike">
+                    <img src="clasica.jpg" alt="Bicicleta Clásica">
+                    <h3>Clásica</h3>
+                    <p>Estilo único para quienes buscan elegancia y comodidad.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Botón de pagos o transferencias -->
+        <section class="payment">
+            
+            <a class="btn" href="https://payp.page.link/AW1G" target="_blank">Pagar con PayPhone</a>
+            <p>O realiza una transferencia bancaria:</p>
+            <ul>
+                <li><strong>Banco:</strong> Banco Ejemplo</li>
+                <li><strong>Número de Cuenta:</strong> 1234567890</li>
+                <li><strong>Beneficiario:</strong> Punto Pedal</li>
+            </ul>
+        </section>
+
+        <!-- Ubicación en Google Maps -->
+        <section class="location">
+            <h2>Ubicación</h2>
+            <p>Visítanos en nuestra tienda física:</p>
+            <a class="btn" href="https://maps.app.goo.gl/2t8H4pZVtJvwtrEv9" target="_blank">Ver en Google Maps</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Punto Pedal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
