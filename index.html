@@ -109,25 +109,23 @@
         footer p {
             margin: 0;
         }
-        form input, form textarea {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+        .payment, .location {
+            margin: 20px 0;
         }
-        form button {
-            background: #FF6F61;
-            color: #fff;
-            border: none;
+        .payment h2, .location h2 {
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
             padding: 10px 20px;
-            font-size: 1em;
-            cursor: pointer;
+            background: #28a745;
+            color: #fff;
             border-radius: 5px;
+            text-decoration: none;
             transition: background 0.3s;
         }
-        form button:hover {
-            background: #FF3D2E;
+        .btn:hover {
+            background: #218838;
         }
     </style>
 </head>
@@ -160,35 +158,43 @@
     </section>
 
     <section class="section" id="beneficios">
-        <h2>¿Por qué elegir PuntoPedal?</h2>
+        <h2>Categorías de Bicicletas</h2>
         <div class="features">
             <div class="feature">
-                <img src="ruta.jpeg" alt="Bicicleta de Ruta">
-                <h3>Fácil de usar</h3>
-                <p>Interfaz intuitiva para encontrar y reservar bicicletas rápidamente.</p>
+                <img src="deportiva.jpg" alt="Bicicleta Deportiva">
+                <h3>Deportiva</h3>
+                <p>Perfecta para terrenos difíciles y actividades de alto rendimiento.</p>
             </div>
             <div class="feature">
-                <img src="montana.jpeg" alt="Bicicleta de Montaña">
-                <h3>Opciones variadas</h3>
-                <p>Desde bicicletas urbanas hasta modelos de montaña, tenemos todo lo que necesitas.</p>
+                <img src="paseo.jpg" alt="Bicicleta de Paseo">
+                <h3>Paseo</h3>
+                <p>Ideal para paseos relajados por la ciudad o el parque.</p>
             </div>
             <div class="feature">
-                <img src="segura.jpeg" alt="Bicicleta Segura">
-                <h3>Seguridad garantizada</h3>
-                <p>Alquila con confianza gracias a nuestras medidas de seguridad y soporte.</p>
+                <img src="clasica.jpg" alt="Bicicleta Clásica">
+                <h3>Clásica</h3>
+                <p>Estilo único para quienes buscan elegancia y comodidad.</p>
             </div>
         </div>
     </section>
 
-    <section class="section" id="contacto">
-        <h2>Contáctanos</h2>
-        <p>¿Tienes preguntas o sugerencias? ¡Queremos escucharte!</p>
-        <form>
-            <input type="text" placeholder="Tu nombre" required><br>
-            <input type="email" placeholder="Tu correo electrónico" required><br>
-            <textarea placeholder="Tu mensaje" required></textarea><br>
-            <button type="submit">Enviar</button>
-        </form>
+    <section class="payment">
+        <h2>Opciones de Pago</h2>
+        <p>Realiza tu pago de forma segura:</p>
+        <a class="btn" href="https://www.paypal.com" target="_blank">Pagar con PayPal</a>
+        <a class="btn" href="https://payp.page.link/AW1G" target="_blank">Pagar con PayPhone</a>
+        <p>O realiza una transferencia bancaria:</p>
+        <ul>
+            <li><strong>Banco:</strong> Banco Ejemplo</li>
+            <li><strong>Número de Cuenta:</strong> 1234567890</li>
+            <li><strong>Beneficiario:</strong> Punto Pedal</li>
+        </ul>
+    </section>
+
+    <section class="location">
+        <h2>Ubicación</h2>
+        <p>Visítanos en nuestra tienda física:</p>
+        <a class="btn" href="https://maps.app.goo.gl/2t8H4pZVtJvwtrEv9" target="_blank">Ver en Google Maps</a>
     </section>
 
     <footer>
